@@ -19,4 +19,4 @@ $('ul').on('click','span',function(e){
       //Create a new li and add to ul
       $("ul").append('<li><span><i class="far fa-trash-alt"></i></span> ' + todoText + '</li>');
     }
-  });
+  })
